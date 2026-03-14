@@ -1,0 +1,56 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid rgba(151, 176, 215, 0.2);
+  backdrop-filter: blur(12px);
+  background: rgba(7, 14, 28, 0.78);
+}
+
+.inner {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.brandSmall {
+  font-size: 0.75rem;
+  color: #9eb0cf;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: #aebfe0;
+  font-size: 0.93rem;
+}
+
+.nav a:hover,
+.active {
+  color: #ecf2ff;
+}
+
+@media (max-width: 780px) {
+  .inner {
+    min-height: 62px;
+  }
+
+  .nav {
+    gap: 0.72rem;
+  }
+}

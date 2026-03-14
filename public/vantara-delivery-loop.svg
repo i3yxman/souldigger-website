@@ -1,0 +1,34 @@
+<svg width="1200" height="580" viewBox="0 0 1200 580" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="580" rx="24" fill="#07172D"/>
+  <text x="70" y="84" fill="#A2D8FF" font-size="30" font-family="Arial" font-weight="700">Vantara Delivery Loop</text>
+  <text x="70" y="118" fill="#83A7D4" font-size="18" font-family="Arial">Design → Execute → Review → Improve</text>
+
+  <circle cx="250" cy="320" r="92" fill="#103663" stroke="#4D77A8" stroke-width="2"/>
+  <text x="210" y="316" fill="#E6F3FF" font-size="24" font-family="Arial" font-weight="700">Design</text>
+  <text x="184" y="346" fill="#A8C8EA" font-size="15" font-family="Arial">Templates & rules</text>
+
+  <circle cx="520" cy="210" r="92" fill="#104256" stroke="#4A8AA0" stroke-width="2"/>
+  <text x="478" y="206" fill="#E6F3FF" font-size="24" font-family="Arial" font-weight="700">Execute</text>
+  <text x="465" y="236" fill="#A7D3DC" font-size="15" font-family="Arial">Field collection</text>
+
+  <circle cx="790" cy="320" r="92" fill="#11413F" stroke="#3CB29C" stroke-width="2"/>
+  <text x="756" y="316" fill="#E6F3FF" font-size="24" font-family="Arial" font-weight="700">Review</text>
+  <text x="736" y="346" fill="#AEE5D9" font-size="15" font-family="Arial">QA & escalation</text>
+
+  <circle cx="520" cy="430" r="92" fill="#223A34" stroke="#59C6AA" stroke-width="2"/>
+  <text x="480" y="426" fill="#E6F3FF" font-size="24" font-family="Arial" font-weight="700">Improve</text>
+  <text x="456" y="456" fill="#BBE7D9" font-size="15" font-family="Arial">Insights & actions</text>
+
+  <path d="M334 280L430 240" stroke="#78A8D9" stroke-width="3"/>
+  <path d="M612 236L708 280" stroke="#6DB8BE" stroke-width="3"/>
+  <path d="M740 380L610 418" stroke="#7AC9B8" stroke-width="3"/>
+  <path d="M430 416L300 378" stroke="#80B8D8" stroke-width="3"/>
+
+  <rect x="930" y="160" width="220" height="260" rx="14" fill="#0E243F" stroke="#35618F"/>
+  <text x="958" y="202" fill="#CDE8FF" font-size="20" font-family="Arial" font-weight="700">Always-On Layer</text>
+  <text x="958" y="236" fill="#96BCDF" font-size="14" font-family="Arial">• Role permissions</text>
+  <text x="958" y="264" fill="#96BCDF" font-size="14" font-family="Arial">• Audit trace</text>
+  <text x="958" y="292" fill="#96BCDF" font-size="14" font-family="Arial">• KPI dashboard</text>
+  <text x="958" y="320" fill="#96BCDF" font-size="14" font-family="Arial">• Notification routing</text>
+  <text x="958" y="348" fill="#96BCDF" font-size="14" font-family="Arial">• AI summary assist</text>
+</svg>

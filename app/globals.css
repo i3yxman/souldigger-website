@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap');
+
+:root {
+  --bg: #071226;
+  --bg-soft: #0c1a33;
+  --surface: #112342;
+  --surface-alt: #0f1e39;
+  --line: rgba(145, 178, 230, 0.22);
+  --text: #e9f2ff;
+  --muted: #9db2d6;
+  --brand: #3ad2c4;
+  --brand-strong: #23a8df;
+  --radius: 14px;
+  --max: 1160px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+    radial-gradient(circle at 8% 4%, rgba(58, 210, 196, 0.17), transparent 34%),
+    radial-gradient(circle at 85% 20%, rgba(35, 168, 223, 0.16), transparent 38%),
+    linear-gradient(180deg, #050d1d 0%, #07142a 100%);
+  color: var(--text);
+  font-family:
+    'Noto Sans SC',
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(100% - 2rem, var(--max));
+  margin: 0 auto;
+}
+
+.section {
+  padding: 3.6rem 0;
+}
+
+.section-compact {
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.section-tight {
+  margin-top: 1.45rem;
+}
+
+.section-alt {
+  background: rgba(8, 18, 36, 0.48);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1.18;
+  font-family: 'Sora', 'Noto Sans SC', sans-serif;
+}
+
+h1 {
+  font-size: clamp(2rem, 3.65vw, 3.08rem);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.7vw, 2.16rem);
+}
+
+p {
+  margin: 0;
+}
+
+.eyebrow {
+  font-size: 0.82rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+}
+
+.desc {
+  margin-top: 0.84rem;
+  color: var(--muted);
+  max-width: 66ch;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card,
+.feature-card,
+.news-card {
+  background: linear-gradient(165deg, rgba(17, 35, 66, 0.95), rgba(10, 22, 42, 0.93));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.06rem;
+}
+
+.card p,
+.card li,
+.feature-card p,
+.news-card p {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.icon-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+  background: linear-gradient(140deg, rgba(58, 210, 196, 0.16), rgba(35, 168, 223, 0.16));
+  color: #86e6dc;
+  border: 1px solid rgba(108, 209, 216, 0.4);
+}
+
+.icon-glyph-svg {
+  display: block;
+}
+
+.kpi-strip {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.kpi-tile {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.72rem 0.82rem;
+  background: rgba(14, 30, 56, 0.78);
+}
+
+.kpi-tile span {
+  font-size: 0.76rem;
+  color: #a5bfe3;
+  display: block;
+}
+
+.kpi-tile strong {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: 'Sora', 'Noto Sans SC', sans-serif;
+  font-size: 0.94rem;
+}
+
+.split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-row {
+  margin-top: 1.4rem;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 0.72rem 1.08rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: transform 0.18s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: linear-gradient(130deg, var(--brand), var(--brand-strong));
+  color: #032733;
+}
+
+.btn-ghost {
+  border: 1px solid var(--line);
+  color: var(--text);
+}
+
+.list {
+  margin: 0.66rem 0 0;
+  padding-left: 1rem;
+}
+
+.list li + li {
+  margin-top: 0.42rem;
+}
+
+.compact-list li {
+  margin-top: 0.28rem;
+}
+
+.media-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(160deg, rgba(13, 26, 52, 0.94), rgba(8, 17, 34, 0.95));
+  padding: 0.84rem;
+}
+
+.media-card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.56rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  padding: 0.34rem 0.56rem;
+  color: #cbe2ff;
+}
+
+.chip-soft {
+  background: rgba(14, 28, 53, 0.8);
+}
+
+.news-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.news-card span {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: #90b4db;
+  margin-bottom: 0.46rem;
+}
+
+.news-card h3 {
+  font-size: 1rem;
+}
+
+.matrix-wrap {
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+
+.matrix {
+  width: 100%;
+  min-width: 780px;
+  border-collapse: collapse;
+}
+
+.matrix th,
+.matrix td {
+  border: 1px solid var(--line);
+  padding: 0.7rem;
+  text-align: left;
+  vertical-align: top;
+  font-size: 0.92rem;
+}
+
+.matrix th {
+  background: rgba(14, 30, 57, 0.95);
+  color: #d8e8ff;
+}
+
+.matrix td {
+  color: var(--muted);
+}
+
+.timeline {
+  margin: 0.9rem 0 0;
+  padding-left: 1rem;
+}
+
+.timeline li {
+  margin: 0.55rem 0;
+  color: var(--muted);
+}
+
+.muted-line {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.policy {
+  max-width: 940px;
+}
+
+.policy section {
+  margin-top: 1.35rem;
+}
+
+.policy h1 {
+  margin-bottom: 0.5rem;
+}
+
+.policy h2 {
+  margin-bottom: 0.4rem;
+  font-size: 1.26rem;
+}
+
+@media (max-width: 980px) {
+  .grid-2,
+  .grid-3,
+  .feature-grid,
+  .split-grid,
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kpi-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .section {
+    padding: 3.1rem 0;
+  }
+}

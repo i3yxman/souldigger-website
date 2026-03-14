@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#071021"/>
+  <circle cx="180" cy="80" r="220" fill="url(#a)" fill-opacity="0.45"/>
+  <circle cx="1080" cy="120" r="260" fill="url(#b)" fill-opacity="0.28"/>
+  <circle cx="920" cy="540" r="280" fill="url(#c)" fill-opacity="0.22"/>
+  <text x="84" y="286" fill="#DFF2FF" font-size="62" font-family="Manrope, Arial, sans-serif" font-weight="800">SoulDigger</text>
+  <text x="84" y="352" fill="#49C8FF" font-size="52" font-family="Manrope, Arial, sans-serif" font-weight="700">Vantara</text>
+  <text x="84" y="410" fill="#A9C2E3" font-size="30" font-family="Noto Sans SC, Arial, sans-serif">智能调研执行平台</text>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 80) rotate(90) scale(220)">
+      <stop stop-color="#47C8FF"/>
+      <stop offset="1" stop-color="#47C8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 120) rotate(90) scale(260)">
+      <stop stop-color="#2D89FF"/>
+      <stop offset="1" stop-color="#2D89FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 540) rotate(90) scale(280)">
+      <stop stop-color="#3AD6FF"/>
+      <stop offset="1" stop-color="#3AD6FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
