@@ -7,14 +7,54 @@
 .inner {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 1.2rem;
   flex-wrap: wrap;
   color: #9eb0cf;
   font-size: 0.88rem;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 220px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.brandBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.copyright {
+  line-height: 1.6;
+}
+
+.beianGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.beian a {
+  color: #9eb0cf;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.beian a:hover {
+  text-decoration: underline;
+}
+
 .links {
   display: inline-flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -27,17 +67,17 @@
   text-decoration: underline;
 }
 
-.meta {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
+@media (max-width: 768px) {
+  .inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.beian a {
-  color: #9eb0cf;
-  text-decoration: none;
-}
+  .right {
+    width: 100%;
+  }
 
-.beian a:hover {
-  text-decoration: underline;
+  .links {
+    gap: 0.8rem 1rem;
+  }
 }
