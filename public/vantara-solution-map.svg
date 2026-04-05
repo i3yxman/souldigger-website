@@ -1,32 +1,32 @@
 <svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="1200" height="660" rx="20" fill="#09192F"/>
   <rect x="34" y="34" width="1132" height="592" rx="16" fill="#0F2542" stroke="#2D4F7E"/>
-  <text x="70" y="92" fill="#B0D7FF" font-size="28" font-family="Arial" font-weight="700">Industry Solution Map</text>
+  <text x="70" y="92" fill="#B0D7FF" font-size="28" font-family="Arial" font-weight="700">行业解决方案图谱</text>
 
   <rect x="70" y="130" width="310" height="220" rx="14" fill="#13355E" stroke="#3D6696"/>
-  <text x="92" y="172" fill="#DDEEFF" font-size="22" font-family="Arial" font-weight="700">Retail</text>
-  <text x="92" y="204" fill="#A7C5E8" font-size="15" font-family="Arial">Store audit · Display check</text>
+  <text x="92" y="172" fill="#DDEEFF" font-size="22" font-family="Arial" font-weight="700">连锁零售</text>
+  <text x="92" y="204" fill="#A7C5E8" font-size="15" font-family="Arial">门店巡检 · 陈列核查</text>
 
   <rect x="402" y="130" width="310" height="220" rx="14" fill="#123F57" stroke="#3E7D93"/>
-  <text x="424" y="172" fill="#E1F3FF" font-size="22" font-family="Arial" font-weight="700">Automotive</text>
-  <text x="424" y="204" fill="#A9D1DD" font-size="15" font-family="Arial">Dealer visit · Service quality</text>
+  <text x="424" y="172" fill="#E1F3FF" font-size="22" font-family="Arial" font-weight="700">汽车渠道</text>
+  <text x="424" y="204" fill="#A9D1DD" font-size="15" font-family="Arial">经销商走访 · 服务质量</text>
 
   <rect x="734" y="130" width="360" height="220" rx="14" fill="#1A3F45" stroke="#3FA39B"/>
-  <text x="756" y="172" fill="#E7FBF7" font-size="22" font-family="Arial" font-weight="700">Research Execution</text>
-  <text x="756" y="204" fill="#B8E2D8" font-size="15" font-family="Arial">Sample capture · QA review</text>
+  <text x="756" y="172" fill="#E7FBF7" font-size="22" font-family="Arial" font-weight="700">研究执行</text>
+  <text x="756" y="204" fill="#B8E2D8" font-size="15" font-family="Arial">样本采集 · 质量审核</text>
 
   <rect x="70" y="374" width="1024" height="212" rx="14" fill="#0D1E37" stroke="#2D4D77"/>
-  <text x="96" y="414" fill="#B5D8FF" font-size="21" font-family="Arial" font-weight="700">Common Delivery Model</text>
+  <text x="96" y="414" fill="#B5D8FF" font-size="21" font-family="Arial" font-weight="700">通用交付方法</text>
 
   <rect x="96" y="444" width="300" height="112" rx="10" fill="#12345C"/>
-  <text x="116" y="486" fill="#E1EEFF" font-size="19" font-family="Arial" font-weight="700">1. Diagnose</text>
-  <text x="116" y="514" fill="#A8C4E4" font-size="14" font-family="Arial">Flow and KPI baseline</text>
+  <text x="116" y="486" fill="#E1EEFF" font-size="19" font-family="Arial" font-weight="700">1. 诊断</text>
+  <text x="116" y="514" fill="#A8C4E4" font-size="14" font-family="Arial">流程与指标基线梳理</text>
 
   <rect x="430" y="444" width="300" height="112" rx="10" fill="#124052"/>
-  <text x="450" y="486" fill="#E1F6FB" font-size="19" font-family="Arial" font-weight="700">2. Deploy</text>
-  <text x="450" y="514" fill="#A7D7DF" font-size="14" font-family="Arial">Template + QA workflow</text>
+  <text x="450" y="486" fill="#E1F6FB" font-size="19" font-family="Arial" font-weight="700">2. 落地</text>
+  <text x="450" y="514" fill="#A7D7DF" font-size="14" font-family="Arial">模板配置 + 审核流程</text>
 
   <rect x="764" y="444" width="300" height="112" rx="10" fill="#1D3F40"/>
-  <text x="784" y="486" fill="#E5F9F2" font-size="19" font-family="Arial" font-weight="700">3. Scale</text>
-  <text x="784" y="514" fill="#B8E1D8" font-size="14" font-family="Arial">Region expansion by data</text>
+  <text x="784" y="486" fill="#E5F9F2" font-size="19" font-family="Arial" font-weight="700">3. 扩展</text>
+  <text x="784" y="514" fill="#B8E1D8" font-size="14" font-family="Arial">基于数据扩展区域</text>
 </svg>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '公司介绍',
-  description: 'SoulDigger：面向企业运营的 AI + 软件产品公司。',
+  description: 'SoulDigger：面向企业调研、分析与智能平台建设的软件公司。',
 };
 
 const pillars = [
@@ -12,20 +12,21 @@ const pillars = [
 ];
 
 const methods = [
-  { step: 'Diagnose', detail: '目标与流程盘点' },
-  { step: 'Design', detail: '规则与权限配置' },
-  { step: 'Deploy', detail: '试点上线与陪跑' },
-  { step: 'Drive', detail: '复盘优化与扩展' },
+  { step: '诊断', detail: '目标与流程盘点' },
+  { step: '设计', detail: '规则与权限配置' },
+  { step: '落地', detail: '试点上线与陪跑' },
+  { step: '驱动', detail: '复盘优化与扩展' },
 ];
 
 export default function CompanyPage() {
   return (
     <main className="section">
       <div className="container policy">
-        <p className="eyebrow">About SoulDigger</p>
-        <h1>AI + 软件，服务企业执行智能升级</h1>
+        <p className="eyebrow">关于 SoulDigger</p>
+        <h1>调研、分析与智能平台软件公司</h1>
         <p className="desc">
-          SoulDigger 以 Vantara 为核心产品，聚焦线下执行与运营管理场景，帮助企业把策略稳定落地到一线。
+          SoulDigger 聚焦企业调研执行、分析决策与智能协同场景，提供平台化产品与工程化交付能力，
+          旗下产品 Vantara 服务于线下执行与运营管理场景。
         </p>
 
         <section>

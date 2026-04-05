@@ -1,0 +1,18 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="80" y1="60" x2="1520" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E2A4D"/>
+      <stop offset="1" stop-color="#071729"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="28" fill="url(#g1)"/>
+  <rect x="72" y="72" width="1456" height="756" rx="24" fill="#0F2542" stroke="#2E4F7D"/>
+  <rect x="140" y="150" width="620" height="340" rx="16" fill="#143761" stroke="#3D6696"/>
+  <rect x="824" y="150" width="636" height="340" rx="16" fill="#133B58" stroke="#3E7D93"/>
+  <rect x="140" y="526" width="1320" height="228" rx="16" fill="#0D1F38" stroke="#2D4D77"/>
+  <text x="182" y="236" fill="#DCEEFF" font-size="50" font-family="Arial" font-weight="700">SoulDigger 企业形象位（示意）</text>
+  <text x="182" y="304" fill="#9EC0E8" font-size="30" font-family="Arial">建议替换为真实团队与办公场景照片</text>
+  <text x="182" y="586" fill="#B5D8FF" font-size="34" font-family="Arial" font-weight="700">用于：首页首屏 / 公司页头图 / 新闻封面</text>
+  <text x="182" y="642" fill="#A8C4E4" font-size="26" font-family="Arial">推荐比例：16:9，建议宽度至少 1600px</text>
+  <text x="182" y="692" fill="#A8C4E4" font-size="26" font-family="Arial">文件命名示例：company-office-2026q2-hero.webp</text>
+</svg>

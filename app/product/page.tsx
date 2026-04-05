@@ -3,29 +3,29 @@ import Image from 'next/image';
 import { IconGlyph } from '@/components/IconGlyph';
 
 export const metadata: Metadata = {
-  title: 'Vantara 产品介绍',
-  description: 'Vantara 产品能力全景：任务、采集、审核、看板与协同治理。',
+  title: '旗下产品 Vantara',
+  description: 'SoulDigger 旗下产品 Vantara：任务、采集、审核、看板与协同治理的一体化平台。',
 };
 
 const cards = [
   {
     icon: 'plan' as const,
-    title: 'Project Studio',
+    title: '项目编排中心',
     points: ['任务模板', '项目排期', '区域分配'],
   },
   {
     icon: 'collect' as const,
-    title: 'Mobile Capture',
+    title: '移动采集终端',
     points: ['问卷采集', '媒体回传', '离线容错'],
   },
   {
     icon: 'review' as const,
-    title: 'QA Workflow',
+    title: '质量审核流程',
     points: ['规则抽检', '多级审核', '异常回流'],
   },
   {
     icon: 'insight' as const,
-    title: 'Insight Board',
+    title: '洞察分析看板',
     points: ['趋势分析', '问题分布', '管理周报'],
   },
 ];
@@ -37,9 +37,9 @@ export default function ProductPage() {
   return (
     <main className="section">
       <div className="container">
-        <p className="eyebrow">Vantara Platform</p>
+        <p className="eyebrow">旗下产品</p>
         <h1>一套系统管理执行、审核与洞察</h1>
-        <p className="desc">少切系统、少追进度、少重复沟通。让总部与一线围绕同一事实决策。</p>
+        <p className="desc">Vantara 是 SoulDigger 旗下执行智能平台。少切系统、少追进度、少重复沟通，让总部与一线围绕同一事实决策。</p>
 
         <div className="feature-grid" style={{ marginTop: '1rem' }}>
           {cards.map((card) => (
@@ -54,7 +54,7 @@ export default function ProductPage() {
         </div>
 
         <div className="media-card" style={{ marginTop: '1.2rem' }}>
-          <Image src="/vantara-delivery-loop.svg" alt="Vantara delivery loop" width={1200} height={580} />
+          <Image src="/vantara-delivery-loop.svg" alt="Vantara 交付闭环示意图" width={1200} height={580} />
         </div>
 
         <section className="section-tight">

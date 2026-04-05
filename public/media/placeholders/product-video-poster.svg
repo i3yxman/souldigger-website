@@ -1,0 +1,15 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="p1" x1="120" y1="90" x2="1800" y2="990" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C2A4D"/>
+      <stop offset="1" stop-color="#061524"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" rx="30" fill="url(#p1)"/>
+  <rect x="92" y="92" width="1736" height="896" rx="22" fill="#102947" stroke="#32537F"/>
+  <circle cx="960" cy="540" r="112" fill="#1E5D8A" stroke="#68A9D9" stroke-width="6"/>
+  <path d="M930 482L1030 540L930 598V482Z" fill="#E3F3FF"/>
+  <text x="182" y="250" fill="#E1EEFF" font-size="64" font-family="Arial" font-weight="700">产品演示视频封面（示意）</text>
+  <text x="182" y="338" fill="#A8C4E4" font-size="40" font-family="Arial">建议替换为真实演示录屏或案例短片</text>
+  <text x="182" y="860" fill="#B6D7FC" font-size="34" font-family="Arial">视频建议：H.264 + AAC，1080p，码率 6-10Mbps，时长 30-90 秒</text>
+</svg>

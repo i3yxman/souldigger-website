@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Footer.module.css";
 import { site } from "@/data/site";
 
@@ -9,7 +10,7 @@ export function Footer() {
         <div className={styles.left}>
           <div className={styles.brandBlock}>
             <span className={styles.copyright}>
-              © {new Date().getFullYear()} {site.name}. All rights reserved.
+              © {new Date().getFullYear()} {site.name} 版权所有。
             </span>
 
             <div className={styles.beianGroup}>
@@ -29,7 +30,7 @@ export function Footer() {
                   rel="noreferrer noopener"
                   className={styles.beianLink}
                 >
-                  <img
+                  <Image
                     src="/beian-icon.png"
                     alt="公安备案图标"
                     width={14}

@@ -4,15 +4,15 @@ import { site } from '@/data/site';
 
 export const metadata: Metadata = {
   title: '咨询合作',
-  description: '联系 SoulDigger 团队，预约 Vantara 产品演示与方案评估。',
+  description: '联系 SoulDigger 团队，预约公司咨询与旗下产品演示。',
 };
 
 export default function ContactPage() {
   return (
     <main className="section">
       <div className="container">
-        <p className="eyebrow">Contact</p>
-        <h1>预约产品演示与方案评估</h1>
+        <p className="eyebrow">联系我们</p>
+        <h1>预约公司咨询与产品演示</h1>
         <p className="desc">提交需求后，我们将在 1 个工作日内与你联系。</p>
 
         <div className="grid grid-2" style={{ marginTop: '1.2rem' }}>

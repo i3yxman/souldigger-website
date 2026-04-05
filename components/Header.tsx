@@ -13,7 +13,6 @@ export function Header() {
       <div className={`container ${styles.inner}`}>
         <Link href="/" className={styles.brand}>
           <span>{site.name}</span>
-          <span className={styles.brandSmall}>{site.product}</span>
         </Link>
         <nav className={styles.nav} aria-label="主导航">
           {navItems.map((item) => {

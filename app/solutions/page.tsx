@@ -17,16 +17,16 @@ const scenarios = [
 ];
 
 const delivery = [
-  { title: 'Step 1 诊断', text: '梳理流程与指标，确定最小试点范围。' },
-  { title: 'Step 2 落地', text: '配置任务模板、审核规则和协同机制。' },
-  { title: 'Step 3 扩展', text: '基于试点数据扩展到更多区域和团队。' },
+  { title: '第一步：诊断', text: '梳理流程与指标，确定最小试点范围。' },
+  { title: '第二步：落地', text: '配置任务模板、审核规则和协同机制。' },
+  { title: '第三步：扩展', text: '基于试点数据扩展到更多区域和团队。' },
 ];
 
 export default function SolutionsPage() {
   return (
     <main className="section">
       <div className="container">
-        <p className="eyebrow">Solutions</p>
+        <p className="eyebrow">行业解决方案</p>
         <h1>按行业落地，不按模板套用</h1>
         <p className="desc">同一平台能力，结合不同业务目标配置不同执行流程。</p>
 
@@ -41,7 +41,7 @@ export default function SolutionsPage() {
         </div>
 
         <div className="media-card" style={{ marginTop: '1.2rem' }}>
-          <Image src="/vantara-solution-map.svg" alt="Vantara scenario map" width={1200} height={660} />
+          <Image src="/vantara-solution-map.svg" alt="Vantara 行业场景图" width={1200} height={660} />
         </div>
 
         <section className="section-tight">

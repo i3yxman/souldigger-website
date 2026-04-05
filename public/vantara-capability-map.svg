@@ -2,52 +2,52 @@
   <rect width="1200" height="640" rx="24" fill="#08162D"/>
   <rect x="34" y="34" width="1132" height="572" rx="18" fill="#0D203F" stroke="#2B4C7A"/>
 
-  <text x="70" y="94" fill="#9FD8FF" font-size="28" font-family="Arial" font-weight="700">Vantara Capability Blueprint</text>
-  <text x="70" y="128" fill="#80A6D6" font-size="18" font-family="Arial">From plan to insight with one data source and traceable workflow</text>
+  <text x="70" y="94" fill="#9FD8FF" font-size="28" font-family="Arial" font-weight="700">Vantara 能力蓝图</text>
+  <text x="70" y="128" fill="#80A6D6" font-size="18" font-family="Arial">统一数据源与全流程可追溯，从计划走向洞察</text>
 
   <rect x="70" y="170" width="210" height="130" rx="14" fill="#10305F" stroke="#3E6AA3"/>
-  <text x="90" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">Plan</text>
-  <text x="90" y="242" fill="#99B9DF" font-size="16" font-family="Arial">Projects</text>
-  <text x="90" y="266" fill="#99B9DF" font-size="16" font-family="Arial">Task templates</text>
+  <text x="90" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">规划</text>
+  <text x="90" y="242" fill="#99B9DF" font-size="16" font-family="Arial">项目管理</text>
+  <text x="90" y="266" fill="#99B9DF" font-size="16" font-family="Arial">任务模板</text>
 
   <rect x="320" y="170" width="210" height="130" rx="14" fill="#0F3757" stroke="#3B7B9E"/>
-  <text x="340" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">Collect</text>
-  <text x="340" y="242" fill="#99B9DF" font-size="16" font-family="Arial">Mobile forms</text>
-  <text x="340" y="266" fill="#99B9DF" font-size="16" font-family="Arial">Media evidence</text>
+  <text x="340" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">采集</text>
+  <text x="340" y="242" fill="#99B9DF" font-size="16" font-family="Arial">移动表单</text>
+  <text x="340" y="266" fill="#99B9DF" font-size="16" font-family="Arial">媒体凭证</text>
 
   <rect x="570" y="170" width="210" height="130" rx="14" fill="#11404C" stroke="#34A5A0"/>
-  <text x="590" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">Verify</text>
-  <text x="590" y="242" fill="#99D7D0" font-size="16" font-family="Arial">Rule checks</text>
-  <text x="590" y="266" fill="#99D7D0" font-size="16" font-family="Arial">Multi-level review</text>
+  <text x="590" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">核验</text>
+  <text x="590" y="242" fill="#99D7D0" font-size="16" font-family="Arial">规则校验</text>
+  <text x="590" y="266" fill="#99D7D0" font-size="16" font-family="Arial">多级审核</text>
 
   <rect x="820" y="170" width="210" height="130" rx="14" fill="#1A3F40" stroke="#3ACAB5"/>
-  <text x="840" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">Act</text>
-  <text x="840" y="242" fill="#A8E8DF" font-size="16" font-family="Arial">Alerts</text>
-  <text x="840" y="266" fill="#A8E8DF" font-size="16" font-family="Arial">Issue closure</text>
+  <text x="840" y="210" fill="#DCEEFF" font-size="24" font-family="Arial" font-weight="700">执行</text>
+  <text x="840" y="242" fill="#A8E8DF" font-size="16" font-family="Arial">预警通知</text>
+  <text x="840" y="266" fill="#A8E8DF" font-size="16" font-family="Arial">问题闭环</text>
 
   <line x1="280" y1="236" x2="320" y2="236" stroke="#5E87B8" stroke-width="3"/>
   <line x1="530" y1="236" x2="570" y2="236" stroke="#5EA5B5" stroke-width="3"/>
   <line x1="780" y1="236" x2="820" y2="236" stroke="#63BFB7" stroke-width="3"/>
 
   <rect x="70" y="340" width="960" height="220" rx="14" fill="#0A1A33" stroke="#2C466F"/>
-  <text x="96" y="384" fill="#A8CEF8" font-size="22" font-family="Arial" font-weight="700">Shared Data Layer</text>
-  <text x="96" y="416" fill="#8FB1DB" font-size="16" font-family="Arial">Audit logs · Role permissions · Status flow · KPI dashboards · Weekly summaries</text>
+  <text x="96" y="384" fill="#A8CEF8" font-size="22" font-family="Arial" font-weight="700">统一数据层</text>
+  <text x="96" y="416" fill="#8FB1DB" font-size="16" font-family="Arial">审计日志 · 角色权限 · 状态流转 · 管理看板 · 周报摘要</text>
 
   <rect x="96" y="444" width="288" height="92" rx="10" fill="#112A4E" stroke="#3E6295"/>
-  <text x="116" y="478" fill="#DCEEFF" font-size="18" font-family="Arial" font-weight="700">Backoffice</text>
-  <text x="116" y="505" fill="#9DBCE3" font-size="14" font-family="Arial">Project setup, review workflow, analytics</text>
+  <text x="116" y="478" fill="#DCEEFF" font-size="18" font-family="Arial" font-weight="700">管理后台</text>
+  <text x="116" y="505" fill="#9DBCE3" font-size="14" font-family="Arial">项目配置、审核流与分析</text>
 
   <rect x="406" y="444" width="288" height="92" rx="10" fill="#0F344A" stroke="#3E7E93"/>
-  <text x="426" y="478" fill="#DCEEFF" font-size="18" font-family="Arial" font-weight="700">Mobile App</text>
-  <text x="426" y="505" fill="#9DD5DA" font-size="14" font-family="Arial">Task execution, survey capture, upload</text>
+  <text x="426" y="478" fill="#DCEEFF" font-size="18" font-family="Arial" font-weight="700">移动端</text>
+  <text x="426" y="505" fill="#9DD5DA" font-size="14" font-family="Arial">任务执行、问卷采集与上传</text>
 
   <rect x="716" y="444" width="288" height="92" rx="10" fill="#11403F" stroke="#39A794"/>
-  <text x="736" y="478" fill="#DCEEFF" font-size="18" font-family="Arial" font-weight="700">AI Assist</text>
-  <text x="736" y="505" fill="#A4E5D8" font-size="14" font-family="Arial">Summaries, risk hints, operation suggestions</text>
+  <text x="736" y="478" fill="#DCEEFF" font-size="18" font-family="Arial" font-weight="700">智能辅助</text>
+  <text x="736" y="505" fill="#A4E5D8" font-size="14" font-family="Arial">摘要生成、风险提示、运营建议</text>
 
   <rect x="1054" y="340" width="112" height="220" rx="14" fill="#0E2B38" stroke="#3796A7"/>
-  <text x="1076" y="396" fill="#A8DCEF" font-size="18" font-family="Arial" font-weight="700">Output</text>
-  <text x="1076" y="430" fill="#8DBFD4" font-size="14" font-family="Arial">Reports</text>
-  <text x="1076" y="454" fill="#8DBFD4" font-size="14" font-family="Arial">Insights</text>
-  <text x="1076" y="478" fill="#8DBFD4" font-size="14" font-family="Arial">Actions</text>
+  <text x="1076" y="396" fill="#A8DCEF" font-size="18" font-family="Arial" font-weight="700">输出</text>
+  <text x="1076" y="430" fill="#8DBFD4" font-size="14" font-family="Arial">报告</text>
+  <text x="1076" y="454" fill="#8DBFD4" font-size="14" font-family="Arial">洞察</text>
+  <text x="1076" y="478" fill="#8DBFD4" font-size="14" font-family="Arial">动作</text>
 </svg>

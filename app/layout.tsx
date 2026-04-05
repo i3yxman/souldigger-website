@@ -8,31 +8,33 @@ import { site } from '@/data/site';
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: `${site.name} | ${site.product}`,
+    default: `${site.name} | 官方网站`,
     template: `%s | ${site.name}`,
   },
   description:
-    'SoulDigger 旗下 Vantara 执行智能平台，覆盖任务编排、现场采集、质量审核、洞察分析与闭环优化。',
+    'SoulDigger 面向企业提供调研执行系统、分析平台与人工智能协同能力，帮助组织实现高质量增长。',
   keywords: [
     'SoulDigger',
-    'Vantara',
+    '企业调研',
+    '智能平台',
     '执行智能',
     '神秘顾客',
     '门店巡检',
     '调研执行',
+    '数据分析',
     '运营质控',
-    'AI企业软件',
+    '人工智能软件',
   ],
   alternates: { canonical: site.domain },
   openGraph: {
-    title: `${site.name} | ${site.product}`,
+    title: `${site.name} | 官方网站`,
     description:
-      '面向线下执行与调研场景的企业级平台，提升执行确定性、审核效率与管理可视化能力。',
+      '企业级调研、分析与智能平台软件服务商。',
     type: 'website',
     url: site.domain,
-    siteName: `${site.name} ${site.product}`,
+    siteName: `${site.name} 官方网站`,
     locale: 'zh_CN',
-    images: [{ url: '/og-cover.svg', width: 1200, height: 630, alt: 'SoulDigger Vantara' }],
+    images: [{ url: '/og-cover.svg', width: 1200, height: 630, alt: 'SoulDigger 官方网站封面图' }],
   },
   twitter: {
     card: 'summary_large_image',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '动态与新闻',
-  description: 'SoulDigger 与 Vantara 产品动态、方案更新与行业观察。',
+  description: 'SoulDigger 公司动态、旗下产品动态、方案更新和行业观察。',
 };
 
 const posts = [
@@ -48,7 +48,7 @@ export default function NewsPage() {
   return (
     <main className="section">
       <div className="container">
-        <p className="eyebrow">News</p>
+        <p className="eyebrow">新闻动态</p>
         <h1>动态与新闻</h1>
         <p className="desc">产品更新、行业观察与交付实践会持续在这里发布。</p>
 

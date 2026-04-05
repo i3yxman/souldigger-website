@@ -1,0 +1,12 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="28" fill="#091B34"/>
+  <rect x="72" y="72" width="1456" height="756" rx="22" fill="#102846" stroke="#32547F"/>
+  <circle cx="396" cy="386" r="196" fill="#17446E" stroke="#4476A7"/>
+  <circle cx="808" cy="386" r="196" fill="#14506A" stroke="#41939C"/>
+  <circle cx="1220" cy="386" r="196" fill="#1E4A4E" stroke="#3FA79F"/>
+  <text x="302" y="394" fill="#DFF0FF" font-size="34" font-family="Arial" font-weight="700">现场采集</text>
+  <text x="706" y="394" fill="#DFF0FF" font-size="34" font-family="Arial" font-weight="700">过程审核</text>
+  <text x="1118" y="394" fill="#DFF0FF" font-size="34" font-family="Arial" font-weight="700">结果洞察</text>
+  <text x="172" y="666" fill="#B6D7FC" font-size="42" font-family="Arial" font-weight="700">业务场景照片位（示意）</text>
+  <text x="172" y="726" fill="#A8C4E4" font-size="28" font-family="Arial">建议替换为可公开授权的真实项目场景照片</text>
+</svg>
