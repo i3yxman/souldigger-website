@@ -26,6 +26,7 @@ export default function ContactPage() {
             <h3>商务信息</h3>
             <ul className="list">
               <li>公司：{site.name}</li>
+              <li>公司全称：{site.legalName}</li>
               <li>产品：{site.product}</li>
               <li>咨询邮箱：{site.email}</li>
               <li>联系电话：{site.phone}</li>

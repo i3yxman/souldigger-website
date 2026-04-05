@@ -12,6 +12,9 @@ export function Footer() {
             <span className={styles.copyright}>
               © {new Date().getFullYear()} {site.name} 版权所有。
             </span>
+            <span className={styles.copyright}>
+              公司全称：{site.legalName}
+            </span>
 
             <div className={styles.beianGroup}>
               <span className={styles.beian}>

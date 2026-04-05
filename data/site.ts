@@ -1,5 +1,6 @@
 export const site = {
   name: 'SoulDigger',
+  legalName: '上海索迪格尔信息服务有限公司',
   product: 'Vantara',
   domain: 'https://souldigger.cn',
   tagline: '面向企业调研与分析场景的智能软件公司',

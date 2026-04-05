@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${site.name} | ${site.product}`,
-    description: '企业执行智能平台',
+    title: `${site.name} | 官方网站`,
+    description: '企业级调研、分析与智能平台软件服务商',
     images: ['/og-cover.svg'],
   },
 };
@@ -49,6 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: site.name,
+    legalName: site.legalName,
     url: site.domain,
     email: site.email,
     brand: site.product,
