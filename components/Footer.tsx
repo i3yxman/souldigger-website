@@ -22,19 +22,23 @@ export function Footer() {
                   沪ICP备2026008268号
                 </a>
               </span>
-
-              {/* 公安备案完成后，取消注释并替换号码 */}
-              {/*
               <span className={styles.beian}>
                 <a
-                  href="http://www.beian.gov.cn/portal/registerSystemInfo"
+                  href="https://beian.mps.gov.cn/#/query/webSearch?code=31011702891383"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
+                  className={styles.beianLink}
                 >
-                  沪公网安备XXXXXXXXXXXX号
+                  <img
+                    src="/beian-icon.png"
+                    alt="公安备案图标"
+                    width={14}
+                    height={14}
+                    className={styles.beianIcon}
+                  />
+                  <span>沪公网安备31011702891383号</span>
                 </a>
               </span>
-              */}
             </div>
           </div>
         </div>

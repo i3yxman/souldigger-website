@@ -48,6 +48,18 @@
   line-height: 1.5;
 }
 
+.beianLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.beianIcon {
+  display: inline-block;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
 .beian a:hover {
   text-decoration: underline;
 }
